@@ -12,6 +12,7 @@
 		6F3D7CEC206CE83E0083B292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3D7CEA206CE83E0083B292 /* Main.storyboard */; };
 		6F3D7CEE206CE83E0083B292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3D7CED206CE83E0083B292 /* Assets.xcassets */; };
 		6F3D7CF1206CE83E0083B292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3D7CEF206CE83E0083B292 /* LaunchScreen.storyboard */; };
+		6F3D7CF9206CE8AA0083B292 /* LYQScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3D7CF8206CE8AA0083B292 /* LYQScrollViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6F3D7CED206CE83E0083B292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F3D7CF0206CE83E0083B292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F3D7CF2206CE83E0083B292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F3D7CF8206CE8AA0083B292 /* LYQScrollViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYQScrollViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				6F3D7CE6206CE83E0083B292 /* AppDelegate.swift */,
 				6F3D7CE8206CE83E0083B292 /* ViewController.swift */,
+				6F3D7CF8206CE8AA0083B292 /* LYQScrollViewDelegate.swift */,
 				6F3D7CEA206CE83E0083B292 /* Main.storyboard */,
 				6F3D7CED206CE83E0083B292 /* Assets.xcassets */,
 				6F3D7CEF206CE83E0083B292 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3D7CF9206CE8AA0083B292 /* LYQScrollViewDelegate.swift in Sources */,
 				6F3D7CE9206CE83E0083B292 /* ViewController.swift in Sources */,
 				6F3D7CE7206CE83E0083B292 /* AppDelegate.swift in Sources */,
 			);
